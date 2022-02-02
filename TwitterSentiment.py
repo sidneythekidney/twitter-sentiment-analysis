@@ -2,12 +2,6 @@ import tweepy
 import time
 from textblob import TextBlob
 
-consumer_key = 'XxaNxxOaFAm1eXneisL2iWoOc'
-consumer_secret = 'vXNxjXFicYT5LmLPOywMee6ghNOfxgK5Xh9EBiqeq1HWCGNHEk'
-
-access_token = '1161490543899271169-YcTJx6pFKktOEgoHDoY8hmLdEGbPYO'
-access_token_secret = 'vWaulJlmyrsv27iPCPEHjTTT3My9zFJQuxW3MXjmW5yyP'
-
 auth = tweepy.OAuthHandler(consumer_key , consumer_secret)
 auth.set_access_token(access_token , access_token_secret)
 
